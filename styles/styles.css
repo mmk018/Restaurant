@@ -33,6 +33,10 @@ h3 {
     width: 80%;
     margin: 0 auto;
 }
+.container75 {
+    width: 75%;
+    margin: 0 auto;
+}
 .white {
     color: #ffffff;
 }
@@ -77,6 +81,15 @@ h3 {
 .justcen {
     justify-content: center;
 }
+.justsa {
+    justify-content: space-around;
+}
+.justsb {
+    justify-content: space-between;
+}
+.h100 {
+    height: 100%;
+}
 
 .btn-black {
     width: 228px;
@@ -117,6 +130,9 @@ h3 {
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
+}
+.column {
+    flex-direction: column;
 }
 
 /* Header start */
@@ -177,12 +193,15 @@ h3 {
     display: block;
     margin: 0 auto;
 }
-.gold-divider img {
+
+.gold-divider-small img {
     
     display: block;
     margin: 0 auto;
     margin-top: 10px;
+    
 }
+
 
 .buttons .btn-black {
     color: white;
@@ -218,3 +237,39 @@ h3 {
 .concept-right {
     width: 60%;
 }
+
+
+/* Section concept END */
+
+
+/* Section Ingredients */
+
+.ingredients {
+    background: url("/images/ingredients-background.jpeg") center center/cover no-repeat;
+    position: relative;
+    padding: 100px;
+}
+.ingredients .box {
+    width: 570px;
+    height: 557px;
+    background: rgba(0, 0, 0, 0.67);
+   
+
+}
+
+.ingredients h2 {
+  padding-top: 80px;  
+}
+
+.ingredients .white-divider-small {
+    margin-top: 16px;
+}
+.ingredients .white-p {
+    margin: 30px 0 0 0;
+} 
+.ingredients .icons {
+    margin-top: 100px;
+}
+
+
+
