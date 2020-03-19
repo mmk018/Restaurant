@@ -292,6 +292,7 @@ h2 {
 .menu {
     background: url("/images/about-background.jpeg") center center/cover no-repeat;
     padding-top: 30px;
+    padding-bottom: 97px;
 }
 .menu-left {
     width: 30%;
@@ -333,5 +334,59 @@ h2 {
 
 
 }
+
+/* Section Menu end */
+
+
+/* Section Reviews Start */
+
+.reviews {
+    background: url("/images/reviews-background2.png") center center/cover no-repeat;
+    width: 100%;
+    
+    padding: 100px 0;
+    
+    
+    
+    
+
+}
+
+.review-box {
+    width: 770px;
+    height: 557px;
+    
+    background: rgba(0, 0, 0, 0.67);
+    
+    /* margin: auto; */
+    
+    position: relative;
+    margin: auto;
+    
+    
+
+}
+.reviews h2 {
+    padding-top: 82px;
+}
+.reviews .white-divider-small img {
+    margin-top: 25px;
+}
+.big-p {
+    color: #dde0df;
+    font-family: "Gentium Book Basic";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.scrum {
+    display: block;
+    position: absolute;
+    top: 190px;
+    left: 40px;
+}    
+
+/* Section Reviews End */
 
 
