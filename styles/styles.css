@@ -43,6 +43,9 @@ h2 {
 .white {
     color: #ffffff;
 }
+.grey {
+    color: #4c4c4c
+}
 .yellow {
     color: #cc9900;
 }
@@ -153,6 +156,9 @@ h2 {
 .p100 {
     padding: 100px;
 }
+.p5 {
+    padding: 0 5px;
+}
 .bold {
     font-weight: 700;
 }
@@ -161,6 +167,12 @@ h2 {
 }
 .m0a {
     margin: 0 auto;
+}
+.op7 {
+    opacity: 0.7;
+}
+.op1 {
+    opacity: 1.5;
 }
 
 
@@ -450,4 +462,33 @@ h2 {
 }
 
 /* Section Contacts Ready */
+/* Section footer Start */
+
+.footer {
+    background-color:black;
+    padding-bottom: 70px;
+
+}
+.footer h3 {
+    margin-top: 0;
+    padding-top: 60px;
+    font-size: 21px;
+    
+}
+.footer p {
+    color: rgb(175, 175, 175);
+}
+
+.footer p span {
+    color: #ffffff;
+}
+
+
+.footer-box {
+    width: 33%;
+    padding: 0 40px 0 40px;
+}
+.footer .white-divider-small img {
+    width: 40%;
+}
 
