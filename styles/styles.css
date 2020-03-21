@@ -156,6 +156,9 @@ h2 {
 .p100 {
     padding: 100px;
 }
+.pt100 {
+    padding-top: 100px;
+}
 .p5 {
     padding: 0 5px;
 }
@@ -336,10 +339,10 @@ h2 {
     padding-bottom: 97px;
 }
 .menu-left {
-    width: 30%;
+    width: 35%;
 }
 .menu-right {
-    width: 30%;
+    width: 35%;
 }
 .menu-category {
     margin-top: 70px
@@ -354,11 +357,13 @@ h2 {
 .menu-block p {
     margin: 0;
     margin-top: 12px;
+    
 }
 .menu-block {
     margin-top: 37px;
     position: relative;
     padding: 10px;
+
 }
 .special {
     width: 69px;
@@ -495,3 +500,39 @@ h2 {
 }
 
 
+
+@media (max-width:1470px) {
+    .navbar ul {
+        display: block;
+        text-align: center;
+    }
+    .navbar ul li {
+        padding: 10px;
+    }
+    .menu .container80 {
+        flex-direction: column;
+        
+    
+    }
+    .menu-left, .menu-right {
+        width: 74%;
+        margin: auto;
+    }
+    .footer .container80 {
+        flex-direction: column;
+        
+    }
+    .footer-box {
+        width: 80%;
+    }
+    .contacts-wrapper {
+        flex-direction: column;
+    }
+    .contacts-left, .contacts-right {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    h1 {
+        font-size: 55px;
+    }
+} 
