@@ -216,7 +216,7 @@ h2 {
 
 }
 .social {
-    position: absolute;
+    
     right: 50px;
 }
 
@@ -289,7 +289,9 @@ h2 {
 .concept-right {
     width: 60%;
 }
-
+.concept-right img{
+    width: 40vw;
+}
 
 /* Section concept END */
 
@@ -491,4 +493,5 @@ h2 {
 .footer .white-divider-small img {
     width: 40%;
 }
+
 
