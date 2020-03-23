@@ -184,6 +184,7 @@ h2 {
 
 
 
+
 /* Header start */
 
 .header {
@@ -493,5 +494,82 @@ h2 {
 .footer .white-divider-small img {
     width: 40%;
 }
+
+
+
+@media screen and (min-width:320px) and (max-width:1200px) {
+    .navbar {
+        display: none;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    .topbar {
+        display:block;
+    }
+    .logo {
+        position: relative;
+        text-align: center;
+        left:0px;
+    }
+    .social {
+        text-align: center;
+        margin-top: 20px;
+
+    }
+    .concept-right {
+        display: none;
+    }
+    .concept-left {
+        width: 90%;
+    }
+    .ingredients .box {
+        width: 100%;
+        height: 643px;
+        background: rgba(0, 0, 0, 0.67);
+    }
+    .ingredients {
+        padding: 10px;
+    }
+    .icons img{
+        width: 30%;
+    }
+    .menu .container80 {
+        flex-direction: column;
+    }
+    .menu-left, .menu-right {
+        width: 100%;
+    }
+    .review-box {
+        width: 100%;
+        height: 400px;
+        overflow: auto;
+    }
+    /* .contacts .container80 {
+        width: 90%;
+    } */
+    .contacts-wrapper .p100{
+        padding: 0;
+    }
+    .contacts>.p100 {
+        padding: 0;
+    }
+    .contacts-left {
+        display: none;
+    }
+    .contacts-right {
+        width: 100%;
+    }
+
+    .footer .container80 {
+        flex-direction: column;
+    }
+    .footer-box {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
 
 
